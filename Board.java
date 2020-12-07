@@ -1,5 +1,5 @@
 public class Board {
-  public static void setupBoard() {
+  public void Board() {
     char[][] arrayOfArrays = new char[8][8];
     for (int i = 0; i < 8; i++) {
       arrayOfArrays[0][0] = '\u2656';

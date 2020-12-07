@@ -1,6 +1,5 @@
 public class Danish {
   public static void board() {
-    Board.setupBoard();
     System.out.println("\n---------------------------\n");
     char[][] firstMove = new char[8][8];
     for (int i = 0; i < 8; i++) {
@@ -36,7 +35,7 @@ public class Danish {
       }
       System.out.println();
     }  
-      System.out.println("\n---------------------------             1. White plays pawn to E4\n");
+      System.out.println("\n---------------------------             1. White plays pawn to e4\n");
   char[][] secondMove = new char[8][8];
     for (int i = 0; i < 8; i++) {
       secondMove[0][0] = '\u2656';
@@ -73,7 +72,7 @@ public class Danish {
       }
       System.out.println();
     }  
-      System.out.println("\n---------------------------             2. Black plays pawn to E5\n");
+      System.out.println("\n---------------------------             2. Black plays pawn to e5\n");
   char[][] thirdMove = new char[8][8];
     for (int i = 0; i < 8; i++) {
       thirdMove[0][0] = '\u2656';
@@ -112,7 +111,7 @@ public class Danish {
       }
       System.out.println();
     }  
-      System.out.println("\n---------------------------             3. White plays pawn to D5\n");
+      System.out.println("\n---------------------------             3. White plays pawn to d5\n");
   char[][] fourthMove = new char[8][8];
     for (int i = 0; i < 8; i++) {
       fourthMove[0][0] = '\u2656';
@@ -191,7 +190,7 @@ public class Danish {
       }
       System.out.println();
     }  
-      System.out.println("\n---------------------------             5. White plays pawn C3\n");
-      System.out.println("The objective of the Danish Gambit is to rapidly develop White's bishops. The position looks favorable for Black because they are up material. \nHowever, White has a clear led in development");
+      System.out.println("\n---------------------------             5. White plays pawn c3\n");
+      System.out.println("The objective of the Danish Gambit is to rapidly develop White's bishops. The position looks favorable for Black because they are up material. \nHowever, White has a clear led in development\nPiece notation: 1.e4 e5 2.d4 exd4 3.c3");
   }
 }
