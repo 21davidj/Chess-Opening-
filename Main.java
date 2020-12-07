@@ -1,11 +1,18 @@
+import java.util.Scanner;
+
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Please enter your name: ");
-    System.out.println("Today we will be learning some basic chess openings for White");
-    System.out.println("What opening would you like to see?");
-
-    TestBoard.testBoard();
+    String name;
+    Scanner consoleInput = new Scanner(System.in);
+       System.out.println("Please enter your name: ");
+        name = consoleInput.next();
+       System.out.println("Hello " + name + "!");
+        consoleInput.nextLine();
+    
+    System.out.println("Today, you will be learning some basic chess openings for White\n");
+ 
     Opening.opening();
+
   }
 }
 
