@@ -6,7 +6,7 @@ public class Main {
     game.name();
     System.out.println("Today, you will be learning some basic chess openings for White\n");
     game.opening();
-    game.moreOpenings();
-
+    
+    //TestBoard.danishTest();
   }
 }
