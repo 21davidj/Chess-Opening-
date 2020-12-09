@@ -1,18 +1,18 @@
 public class TestBoard {
-    public static void testBoard() {
+    public static void boardTest() {
         System.out.println("This is a test of the basic board");
-        Board testBoard = new Board();
+        Board b = new Board();
 
     }
     public static void danishTest() {
         System.out.println("Danish Testing...");
-        Board testBoard = new Board();
-        Danish.board();
+        Game b = new Game();
+        b.danish();
     }
 
     public static void morraTest() {
         System.out.println("Morra Testing...");
-        Board testBoard = new Board();
+        Game testBoard = new Game();
         Morra.board();
     }
     

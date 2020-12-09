@@ -191,6 +191,6 @@ public class Danish {
       System.out.println();
     }  
       System.out.println("\n---------------------------             5. White plays pawn c3\n");
-      System.out.println("The objective of the Danish Gambit is to rapidly develop White's bishops. \nThe position looks favorable for Black because they are up material. \nHowever, White has a clear led in development. \nPiece notation: 1.e4 e5 2.d4 exd4 3.c3");
+      System.out.println("The objective of the Danish Gambit is to rapidly develop white's bishops. \nThe position looks favorable for black because they are up material. \nHowever, white has a clear lead in development. \nThe most notable line once accepted is Bishop to c4 followed by Bishop to b2. \nPiece notation: 1.e4 e5 2.d4 exd4 3.c3");
   }
 }
