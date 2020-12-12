@@ -15,6 +15,7 @@ public class Board {
       arrayOfArrays[7][4] = '\u265A'; arrayOfArrays[7][5] = '\u265D';
       arrayOfArrays[7][6] = '\u265E'; arrayOfArrays[7][7] = '\u265C';
 printBoard();
+System.out.println("\n---------------------------\n");
   }
   
   public void printBoard() {

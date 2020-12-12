@@ -12,13 +12,13 @@ public class TestBoard {
 
     public static void morraTest() {
         System.out.println("Morra Testing...");
-        Game testBoard = new Game();
-        Morra.board();
+        Game b = new Game();
+        b.morra();
     }
     
     public static void evansTest() {
         System.out.println("Evan's Testing...");
-        Board testBoard = new Board();
-        Evans.board();
+        Game b = new Game();
+        b.evans();
     }
 }
