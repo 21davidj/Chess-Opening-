@@ -198,17 +198,8 @@ public class Game {
 
   //Asks user to type "next" to see the next move
   public void nextMove() {
-    System.out.println("Type next to see the next move");
+    System.out.println("Press enter to see the next move");
     //Forever loop ensures that the user types "next" to see the next move
-    while (true) {
-      nextMove = consoleInput.nextLine();
-      if (nextMove.equalsIgnoreCase("next")) {
-        System.out.println(" ");
-        break;
-      }
-      else {
-        System.out.println("Type next to see the next move");
-      } 
-    }
+    consoleInput.nextLine();
   }
 }
